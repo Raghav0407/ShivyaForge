@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-export const Hotforging = (props) => {
+const Hotforging = (props) => {
     const { flag, btn_name, img, title, description } = props;
 
     return (
@@ -67,3 +67,6 @@ export const Hotforging = (props) => {
         </Container>
     );
 }
+
+
+export default Hotforging;

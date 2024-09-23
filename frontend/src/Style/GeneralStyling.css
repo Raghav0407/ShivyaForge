@@ -1,0 +1,13 @@
+.img-fixed {
+    height: 250px;
+    object-fit: cover; 
+    width: 100%; 
+}
+
+
+.custom-hr {
+    border: none; 
+    height: 2px;
+    background-color: black;
+    width: 100%;
+}

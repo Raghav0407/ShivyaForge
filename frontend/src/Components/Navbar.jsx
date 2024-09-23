@@ -10,6 +10,7 @@ import Divider from '@mui/material/Divider';
 import MenuIcon from '@mui/icons-material/Menu';
 import ClearIcon from '@mui/icons-material/Clear';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import CancelIcon from '@mui/icons-material/Cancel';
 import '../Styles/Navbar.css'
 const Navbar = () => {
 
@@ -73,7 +74,7 @@ const Navbar = () => {
         <div className='nav2_t2'>
           <Button variant="outlined" startIcon={<SendIcon />}>Get a Quote</Button>
         </div>
-        {menu ? <div className='nav2_menu'><ClearIcon style={{ height: "50px", width: "50px" }} onClick={handleMenuClick} /></div> : <div className='nav2_menu'>
+        {menu ? <div className='nav2_menu'><CancelIcon style={{ height: "50px", width: "50px" }} onClick={handleMenuClick} /></div> : <div className='nav2_menu'>
           <MenuIcon style={{ height: "50px", width: "50px" }} onClick={handleMenuClick} />
         </div>}
 

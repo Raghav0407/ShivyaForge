@@ -1,13 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 .img-fixed {
     height: 250px;
     object-fit: cover; 
     width: 100%; 
 }
 
-
 .custom-hr {
     border: none; 
     height: 2px;
     background-color: black;
     width: 100%;
+}
+
+.image-zoom {
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.image-zoom:hover {
+    transform: scale(1.1); /* Scale the image to 110% */
+}
+
+.custom-font-heading {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.custom-font-Subheading {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.custom-font-p {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }

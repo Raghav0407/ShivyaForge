@@ -1,0 +1,102 @@
+.custom-caption {
+  position: absolute;
+  top: 50%;
+  left: 10%; /* Moved slightly more to the right */
+  transform: translateY(-50%);
+  text-align: left;
+  z-index: 2; /* Ensure caption appears above other elements */
+  padding: 20px; /* Add padding for better visibility */
+  max-width: 80%; /* Limit the width of the caption */
+  box-sizing: border-box; /* Include padding in total width */
+}
+
+.carousel-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.carousel-text {
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.carousel-btn {
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.carousel-btn:hover {
+  background-color: darkgreen;
+}
+
+/* Adjust the position of carousel controls */
+.carousel-control-prev, 
+.carousel-control-next {
+  z-index: 1; /* Keep it behind the caption */
+  width: 5%; /* Adjust the width to make more space between buttons and caption */
+}
+
+/* Adding space between the controls and the content */
+.carousel-control-prev {
+  margin-left: 30px; /* Add space on the left side */
+}
+
+.carousel-control-next {
+  margin-right: 30px; /* Add space on the right side */
+}
+
+/* Change the color of the slider control buttons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: white;
+}
+
+/* Optional: hover effect for the control buttons */
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+  background-color: lightgray;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .carousel-heading {
+      font-size: 2rem; /* Reduce heading size for smaller screens */
+  }
+
+  .carousel-text {
+      font-size: 1rem; /* Reduce text size for smaller screens */
+  }
+
+  .custom-caption {
+      left: 5%; /* Reduce left spacing on smaller screens */
+      max-width: 90%; /* Allow caption to use more space */
+  }
+
+  .carousel-btn {
+      font-size: 0.9rem; /* Smaller button text on mobile */
+      padding: 8px 16px; /* Adjust padding for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-heading {
+      font-size: 1.5rem; /* Further reduce heading size for extra small screens */
+  }
+
+  .carousel-text {
+      font-size: 0.9rem; /* Further reduce text size for extra small screens */
+  }
+
+  .custom-caption {
+      left: 2%; /* Further reduce left spacing */
+      max-width: 95%; /* Use almost full width */
+  }
+}

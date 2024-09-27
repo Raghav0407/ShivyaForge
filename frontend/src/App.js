@@ -1,4 +1,7 @@
 import './App.css';
+import   CardComponent  from './Components/CardComponent';
+import Carousels from './Components/Carousel';
+import Poster from './Components/Poster';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import Carousels from './Components/Carousel';
@@ -10,6 +13,9 @@ function App() {
  
   return (
     <div className="App">
+      <Carousels />
+      <CardComponent />
+      <Poster />
       <BrowserRouter>
       <Navbar/>
       <Carousels/>

@@ -1,12 +1,16 @@
 
 import './App.css';
-import { MiddleComponent } from './Components/MiddleComponent';
+import   CardComponent  from './Components/CardComponent';
+import Carousels from './Components/Carousel';
+import Poster from './Components/Poster';
 
 function App() {
  
   return (
     <div className="App">
-      <MiddleComponent />
+      <Carousels />
+      <CardComponent />
+      <Poster />
     </div>
   );
 }

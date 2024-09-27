@@ -13,5 +13,11 @@ code {
 }
 #map{
   height: 40vh;
-  width: 40vw;
+  width: 50vw;
+  border: 2px solid black;
+  box-shadow: inset;
+  
+}
+*{
+  font-family: "Montserrat", sans-serif;
 }

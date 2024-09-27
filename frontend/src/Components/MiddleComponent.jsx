@@ -1,5 +1,4 @@
 import React from 'react'
-import Carousels from './Carousel';
 import Hotforging from './Hotforging';
 import Gallery from './Gallery';
 import HotDie_1 from '../Assets/img/Hot-Die-Forging.jpg';
@@ -10,8 +9,6 @@ export const MiddleComponent = () => {
     const images = [HotDie_1, HotDie_2];
     return (
         <div>
-            <Carousels />
-
             {data && data.map((item, index) => (
                 <Hotforging
                     key={index}

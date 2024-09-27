@@ -7,6 +7,7 @@
 }
 .footer_container{
     padding: 30px;
+    font-weight: 600;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -16,16 +17,18 @@
     
 }
 .footerhead_container{
-    background-image:url("../Assets/img/backfooter.png");
+    background-image:url("../Assets/img/background1.avif");
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-color: rgb(82, 33, 0); */
 }
 .footer1_container{
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 .footer1_header{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-size: 20px;
     font-weight: 600;
 }
@@ -44,6 +47,7 @@
 .copyright_text{
     text-align: center;
     color: white;
+    font-weight: 500;
     font-size: large;
     padding: 20px;
     font-style: italic;

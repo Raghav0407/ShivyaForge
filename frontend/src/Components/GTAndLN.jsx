@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Style/GeneralStyling.css"
+import "../Styles/GeneralStyling.css"
 
 const GTAndLN = () => {
     return (

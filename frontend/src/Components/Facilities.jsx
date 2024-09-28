@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Card from './Card';
-import data from '../Assets/data/CardData.json';
+import data from '../Assets/data/FacilitiesData.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Styles/CardComponent.css';
 import image1 from "../Assets/img/Automobile1.jpeg";
@@ -15,14 +15,14 @@ import image8 from "../Assets/img/IronSteel8.webp";
 import image9 from "../Assets/img/Mechanical9.jpeg";
 
 
-function CardComponent() {
+function Facilities() {
   const images =[image1,image2,image3,image4,image5,image6,image7,image8,image9];
 
   return (
     <Container className="cardcomponent-container" fluid>
       <div className="heading-container">
-        <h2 className="heading">Industries Served By Us</h2>
-        <p style={{color:"grey",fontWeight:"500"}}>Discover the Diverse Application of our Product</p>
+        <h2 className="heading">Facilities Served By Us</h2>
+        <p style={{color:"grey",fontWeight:"500"}}>Experience the qualities provided by us to our clients</p>
       </div>
       <Row>
         {data && data.map((item, index) => (
@@ -38,4 +38,4 @@ function CardComponent() {
   );
 }
 
-export default CardComponent;
+export default Facilities;

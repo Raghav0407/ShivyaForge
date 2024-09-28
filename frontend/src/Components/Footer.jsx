@@ -75,10 +75,7 @@ const Footer = () => {
         Contact Information
       </div>
       <div className='footer1_list'>
-        Location: No. 332, 4th Main, 9th Cross,<br/>
-        Peenya 4th Phase,<br/>
-        Banglore : 560 058. INDIA.<br/><br/>
-        Phone : +91 98723902
+      K-401, Krish Gold, Ankur Chokadi <br/>New India Colony,Ankur Tenament Nikol, <br/>Ahmedabad, Gujarat 382350
       </div>
       </div>
       <div className='footer3_container'>

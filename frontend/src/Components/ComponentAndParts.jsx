@@ -5,7 +5,7 @@ function ComponentAndParts() {
     return (
         <div className='container'>
             <div className='cp-conatiner-up pt-5'>
-                <div className='h2 text-center fw-bold text-primary mb-3 p-2'>
+                <div className='h2 text-center fw-bold text mb-3 p-2'>
                     HOT FORGING COMPONENTS AND PARTS
                 </div>
                 <div className='p text-center text-muted'>

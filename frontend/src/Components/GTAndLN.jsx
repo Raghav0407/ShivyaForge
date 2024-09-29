@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import "../Styles/GeneralStyling.css"
-
+import manufacture from '../Assets/img/manufacture.jpg'
+import engineering from '../Assets/img/engineering.jpg'
 
 const GTAndLN = () => {
     const [data,setData] = useState({
@@ -44,7 +45,11 @@ const GTAndLN = () => {
                         </div>
                     </div>
                     <div className='p text-muted m-3'>
-                    We specialize in steel, aluminum hot die forging manufacturing. The products Products applied to automobile transmission systems, gearbox systems, braking systems, fluid hydraulic systems, construction machinery, electrical machinery, and other forging parts.
+                    At SHIVYA FORGE, we Manufacture and
+Export Quality Products as per Customers /
+Industrial requirements. We believe in
+ultimate customer satisfaction, in terms of
+Quality and Delivery.
                     </div>
                     <form onSubmit={onSubmit} className='row g-4 m-3'>
                         <div className="col-md-6">
@@ -67,10 +72,10 @@ const GTAndLN = () => {
                 <div className="col">
                     <div className="ln-header m-3">
                         <div className="row g-0">
-                            <div className='fs-5 col-3 fw-bold text-start d-flex align-items-center mt-3 mb-3'>
-                                Latest News
+                            <div className='fs-5 col-8 fw-bold text-start d-flex align-items-center mt-3 mb-3'>
+                                Forging and Enginnering Only!!
                             </div>
-                            <div className='col-9 mt-3 mb-3'>
+                            <div className='col-4 mt-3 mb-3'>
                                 <hr />
                             </div>
                         </div>
@@ -78,18 +83,20 @@ const GTAndLN = () => {
                     <div className="row m-3">
                             <div className="col shadow">
                                 <div className='mt-3'>
-                                    <img className='img-fluid img-fixed' src="https://www.carparts.com/blog/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/06/automotive-battery-cable-300x300.jpg.webp" alt="" />
+                                    <img className='img-fluid img-fixed' src={manufacture} alt="" />
                                 </div>
                                 <div className='p-3 fw-bold mt-3 mb-3'>
-                                    Reasonable Choice Of New Energy Gear Shift Forging And Heat Treatment Process
+                                We insist on fair and honest business relationship with our Customers
+                                and business partners.
                                 </div>
                             </div>
                             <div className="col shadow">
                                 <div className='mt-3'>
-                                    <img className='img-fluid img-fixed' src="https://www.carparts.com/blog/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/06/automotive-battery-cable-300x300.jpg.webp" alt="" />
+                                    <img className='img-fluid img-fixed' src={engineering} alt="" />
                                 </div>
                                 <div className='p-3 fw-bold mt-3 mb-3'>
-                                    Reasonable Choice Of New Energy Gear Shift Forging And Heat Treatment Process
+                                We value our Customers and dedicated to provide them quality
+                                products at best competitive prices with timely delivery.
                                 </div>
                             </div>
                         </div>

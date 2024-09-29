@@ -30,7 +30,7 @@
     /* flex-wrap: wrap; */
     padding: 20px; 
      margin: 30px;
-    background-color: aliceblue;
+    background-color: rgb(255, 240, 240);
 }
 .contain_left{
     display: flex;

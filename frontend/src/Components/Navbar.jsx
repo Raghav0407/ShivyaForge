@@ -72,6 +72,8 @@ const Navbar = () => {
               <div className='part1_text'>Forged Rings</div>
               <Divider orientation="horizontal" flexItem className='nav2_div_menu' />
               <div className='part1_text'>Forged Components</div>
+              <Divider orientation="horizontal" flexItem className='nav2_div_menu' />
+              <div className='part1_text'>Machine Forged Components</div>
             </div>
           )}
         </div>
@@ -116,8 +118,11 @@ const Navbar = () => {
               </div>
               <Divider orientation="horizontal" flexItem className='nav2_div_menu' />
               <div className='part1_text'>
-                Forged Parts
+                Forged Components
               </div>
+              <Divider orientation="horizontal" flexItem className='nav2_div_menu' />
+              <div className='part1_text'>
+              Machine Forged Components              </div>
             </div> : <></>
           }
           <Divider orientation="horizontal" flexItem variant='middle' className='nav2_div_menu' />

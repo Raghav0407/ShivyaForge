@@ -10,6 +10,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import { OurForgingSolutions } from './Components/OurForgingSolutions';
 import ComponentAndParts from './Components/ComponentAndParts';
 import Facilities from './Components/Facilities';
+import ContactUs from './Components/ContactUs';
 function App() {
  
   return (
@@ -24,6 +25,7 @@ function App() {
       <Facilities/>
       <Poster />
       <GTAndLN/>
+      <ContactUs/>
       <Footer/>
       </BrowserRouter>
     </div>

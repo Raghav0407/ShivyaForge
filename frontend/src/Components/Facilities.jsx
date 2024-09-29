@@ -4,14 +4,14 @@ import Card from './Card';
 import data from '../Assets/data/FacilitiesData.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Styles/CardComponent.css';
-import image1 from "../Assets/img/Automobile1.jpeg";
-import image2 from "../Assets/img/Bearing2.png";
-import image3 from "../Assets/img/GearBox3.jpeg";
-import image4 from "../Assets/img/EarthMoving4.jpg";
-import image5 from "../Assets/img/Valves5.jpeg";
-import image6 from "../Assets/img/OliAndGas6.jpeg";
-import image7 from "../Assets/img/Power7.jpeg";
-import image8 from "../Assets/img/IronSteel8.webp";
+import image1 from "../Assets/img/cuttingshop.jpg";
+import image2 from "../Assets/img/dieshop.jpg";
+import image3 from "../Assets/img/opendie.jpg";
+import image4 from "../Assets/img/closeddie.jpg";
+import image5 from "../Assets/img/ringrolling.jpg";
+import image6 from "../Assets/img/heattreatment.jpg";
+import image7 from "../Assets/img/annealing.webp";
+import image8 from "../Assets/img/machineshop.jpg";
 import image9 from "../Assets/img/Mechanical9.jpeg";
 
 

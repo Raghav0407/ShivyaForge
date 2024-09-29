@@ -37,33 +37,6 @@
   background-color: darkgreen;
 }
 
-/* Adjust the position of carousel controls */
-.carousel-control-prev, 
-.carousel-control-next {
-  z-index: 1; /* Keep it behind the caption */
-  width: 5%; /* Adjust the width to make more space between buttons and caption */
-}
-
-/* Adding space between the controls and the content */
-.carousel-control-prev {
-  margin-left: 30px; /* Add space on the left side */
-}
-
-.carousel-control-next {
-  margin-right: 30px; /* Add space on the right side */
-}
-
-/* Change the color of the slider control buttons */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: white;
-}
-
-/* Optional: hover effect for the control buttons */
-.carousel-control-prev:hover .carousel-control-prev-icon,
-.carousel-control-next:hover .carousel-control-next-icon {
-  background-color: lightgray;
-}
 
 /* Responsive styles */
 @media (max-width: 768px) {

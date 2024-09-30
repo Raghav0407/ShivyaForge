@@ -3,17 +3,6 @@
     font-size: 16px;
 } */
 
-.aboutus-black-section {
-    width: 100%;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centering content */
-    padding: 20px;
-    margin-bottom: -25px;
-    z-index: 1;
-}
-
 .aboutus-title {
     color: white;
     font-weight: bold;
@@ -45,6 +34,7 @@
     width: 90%;
     margin: 0 auto;
     z-index: 2;
+    margin-top: -40px;
 }
 
 .aboutus-container {

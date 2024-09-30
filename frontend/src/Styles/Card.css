@@ -1,85 +1,19 @@
-.aboutus-black-section {
-    height: 400px;
-    width: 100%;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    margin-bottom: -25px; /* Adjusted for reduced overlap */
-    position: relative; /* Allows overlapping */
-    z-index: 1; /* Ensure it stays behind the container */
+/* CardComponent.css */
+
+/* Ensure all cards have consistent spacing */
+.card {
+    margin: 10px; /* Adds margin around each card */
 }
 
-.aboutus-title {
-    color: white;
-    font-weight: bold;
-    font-size: 50px;
-    text-align: center;
-    margin-bottom: 10px;
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card {
+        max-width: 90%; /* Make cards take up more width on smaller screens */
+    }
 }
 
-.aboutus-subtitle {
-    color: white;
-    text-align: center;
-    margin-bottom: 10px; /* Adjusted for spacing */
-}
-
-.aboutus-description {
-    color: white;
-    text-align: center;
-    margin: 0 40px;
-    padding: 0 20px;
-}
-
-.aboutus-container {
-    position: relative;
-    top: -50px; /* Reduced overlap */
-    display: flex; /* Use flex to align containers */
-    justify-content: space-between; /* Space between the containers */
-    flex-wrap: wrap; /* Allow wrapping */
-    width: 90%; /* Set width to 90% */
-    margin: 0 auto; /* Center the parent container */
-    z-index: 2; /* Ensure it is above the black section */
-}
-
-.aboutus-child-container {
-    flex: 1 1 calc(33% - 20px); /* Flex-grow, flex-shrink, and flex-basis */
-    height: 500px;
-    background-color: white;
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin: 10px; /* Margin between the containers */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
-}
-
-.aboutus-red-stripe {
-    width: 20%;
-    height: 7px;
-    background-color: red;
-    margin-bottom: 10px;
-}
-
-.aboutus-child-title {
-    font-size: 24px; /* Adjust font size */
-}
-
-.aboutus-child-description {
-    text-align: justify; /* Justify the text */
-    font-weight: normal; /* Set font weight to normal */
-}
-
-.aboutus-values-list {
-    font-weight: 5px;
-    font-size: 14px;
-    margin: 5px;
-}
-
-.aboutus-values-list-item {
-    margin: 5px;
-}
-
-.aboutus-quality-description {
-    color: grey;
+@media (min-width: 769px) {
+    .card {
+        max-width: 300px; /* Limit the width on larger screens */
+    }
 }

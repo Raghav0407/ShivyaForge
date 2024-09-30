@@ -8,12 +8,10 @@ import ContactPage from './Pages/ContactPage';
 import AboutPage from './Pages/AboutPage';
 import ProductPage from './Pages/ProductPage';
 import HomePage from './Pages/HomePage';
-
 function App() {
  
   return (
     <div className="App">
-
         <BrowserRouter>
        <Navbar/>
        <Routes>
@@ -25,7 +23,6 @@ function App() {
        <Poster/>
        <Footer/>
       </BrowserRouter>
-
     </div>
   );
 }

@@ -1,4 +1,6 @@
 import './App.css';
+import Aboutus from './Components/Aboutus';
+
 import   CardComponent  from './Components/CardComponent';
 import Poster from './Components/Poster';
 import Navbar from './Components/Navbar';
@@ -11,10 +13,12 @@ import { OurForgingSolutions } from './Components/OurForgingSolutions';
 import ComponentAndParts from './Components/ComponentAndParts';
 import Facilities from './Components/Facilities';
 import ContactUs from './Components/ContactUs';
+
 function App() {
  
   return (
     <div className="App">
+
         <BrowserRouter>
         <Navbar/>
       <Carousels />
@@ -28,6 +32,7 @@ function App() {
       <ContactUs/>
       <Footer/>
       </BrowserRouter>
+
     </div>
   );
 }

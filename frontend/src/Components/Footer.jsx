@@ -1,4 +1,4 @@
-import React,{useEffect, useRef} from 'react'
+import React, { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import '../Styles/Footer.css'
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
@@ -24,74 +24,74 @@ const Footer = () => {
   }, []);
   return (
     <div className='footerhead_container'>
-    <div className='footer_container'>
-      <div className='footer1_container'>
-        <div className='footer1_header'>
-          Quick Links
+      <div className='footer_container'>
+        <div className='footer1_container'>
+          <div className='footer1_header'>
+            Quick Links
+          </div>
+          <div className='footer1_list'>
+            <div className='list1_icon'>
+              <ArrowForwardIosIcon style={{ height: "15px", width: "15px" }} />
+            </div>
+            <div className='list1_text'>
+              <Link to="/" className='icon_list1'>Home</Link>
+            </div>
+          </div>
+          <div className='footer1_list'>
+            <div className='list1_icon'>
+              <ArrowForwardIosIcon style={{ height: "15px", width: "15px" }} />
+            </div>
+            <div className='list1_text'>
+              <Link to="/" className='icon_list1'>Hot Forging Components and Parts</Link>
+            </div>
+          </div>
+          <div className='footer1_list'>
+            <div className='list1_icon'>
+              <ArrowForwardIosIcon style={{ height: "15px", width: "15px" }} />
+            </div>
+            <div className='list1_text'>
+              <Link to="/productshow" className='icon_list1'>Product Show</Link>
+            </div>
+          </div>
+          <div className='footer1_list'>
+            <div className='list1_icon'>
+              <ArrowForwardIosIcon style={{ height: "15px", width: "15px" }} />
+            </div>
+            <div className='list1_text'>
+              <Link to="/aboutus" className='icon_list1'>About Us</Link>
+            </div>
+          </div>
+          <div className='footer1_list'>
+            <div className='list1_icon'>
+              <ArrowForwardIosIcon style={{ height: "15px", width: "15px" }} />
+            </div>
+            <div className='list1_text'>
+              <Link to="/contactus" className='icon_list1'>Contact Us</Link>
+            </div>
+          </div>
         </div>
-        <div className='footer1_list'>
-          <div className='list1_icon'>
-            <ArrowForwardIosIcon style={{height:"15px",width:"15px"}}/>
+        <div className='footer2_container'>
+          <div className='footer1_header'>
+            Contact Information
           </div>
-          <div className='list1_text'>
-            <Link to="/home" className='icon_list1'>Home</Link>
-          </div>
-        </div>
-        <div className='footer1_list'>
-          <div className='list1_icon'>
-          <ArrowForwardIosIcon style={{height:"15px",width:"15px"}}/>
-          </div>
-          <div className='list1_text'>
-            <Link to="/" className='icon_list1'>Hot Forging Components and Parts</Link>
+          <div className='footer1_list'>
+            K-401, Krish Gold, Ankur Chokadi <br />New India Colony,Ankur Tenament Nikol, <br />Ahmedabad, Gujarat 382350
           </div>
         </div>
-        <div className='footer1_list'>
-          <div className='list1_icon'>
-          <ArrowForwardIosIcon style={{height:"15px",width:"15px"}}/>
+        <div className='footer3_container'>
+          <div className='footer1_header'>
+            Locate Us
           </div>
-          <div className='list1_text'>
-            <Link to="/productshow" className='icon_list1'>Product Show</Link>
-          </div>
-        </div>
-        <div className='footer1_list'>
-          <div className='list1_icon'>
-          <ArrowForwardIosIcon style={{height:"15px",width:"15px"}}/>
-          </div>
-          <div className='list1_text'>
-            <Link to="/aboutus" className='icon_list1'>About Us</Link>
-          </div>
-        </div>
-        <div className='footer1_list'>
-          <div className='list1_icon'>
-          <ArrowForwardIosIcon style={{height:"15px",width:"15px"}}/>
-          </div>
-          <div className='list1_text'>
-            <Link to="/contactus" className='icon_list1'>Contact Us</Link>
+          <div id="map" ref={mapRef}>
           </div>
         </div>
       </div>
-      <div className='footer2_container'>
-      <div className='footer1_header'>
-        Contact Information
-      </div>
-      <div className='footer1_list'>
-      K-401, Krish Gold, Ankur Chokadi <br/>New India Colony,Ankur Tenament Nikol, <br/>Ahmedabad, Gujarat 382350
-      </div>
-      </div>
-      <div className='footer3_container'>
-        <div className='footer1_header'>
-          Locate Us
+      <div className='copyright_footer'>
+        <hr />
+        <div className='copyright_text'>
+          Copyright &copy; 2024 Shivya Forging Pvt Ltd., | Powered by India
         </div>
-        <div id="map" ref={mapRef}>
-        </div>        
       </div>
-    </div>
-    <div className='copyright_footer'>
-      <hr/>
-      <div className='copyright_text'>
-        Copyright &copy; 2024 Shivya Forging Pvt Ltd., | Powered by India
-      </div>
-    </div>
     </div>
   )
 }

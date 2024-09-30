@@ -1,0 +1,57 @@
+.aboutuspart2-container {
+  width: 100%; /* Full width */
+  height: 600px; /* Fixed height */
+  padding: 0; /* Remove default padding */
+  margin-top: auto; /* Add top margin */
+}
+
+.aboutuspart2-row {
+  display: flex; /* Flexbox for rows */
+  width: 100%; /* Full width */
+  margin: 0; /* No margin */
+  height: 100%; /* Full height */
+}
+
+.aboutuspart2-column {
+  display: flex; /* Flexbox for columns */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: 100%; /* Full height */
+  width: 50%; /* Each column takes half of the row */
+}
+
+/* For the flag container */
+.flag-container {
+  margin-left: 10px; /* Left margin */
+  display: flex; /* Flexbox for flag layout */
+  flex-wrap: wrap; /* Allow flags to wrap */
+  gap: 15px; /* Space between flags */
+  margin: 30px; /* Margin around flag container */
+  justify-content: flex-start; /* Align flags to the left */
+}
+
+/* Flag images */
+.aboutuspart2-flag {
+  width: 60px; /* Flag width */
+  margin: 5px; /* Margin around each flag */
+  padding: 5px; /* Padding inside flag image */
+  border: 1px solid #ccc; /* Border around the flag */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Responsive adjustments for smaller devices */
+@media (max-width: 768px) { /* For tablets and smaller devices */
+  .aboutuspart2-column {
+      width: 100%; /* Full width for each column */
+  }
+
+  .aboutuspart2-flag {
+      width: 50px; /* Smaller flag width */
+  }
+}
+
+@media (max-width: 576px) { /* For mobile devices */
+  .aboutuspart2-flag {
+      width: 40px; /* Smaller flag width for mobile */
+  }
+}

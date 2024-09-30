@@ -9,7 +9,7 @@
 
 .poster-image {
     width: 100%; /* Full width image */
-    height: 400px; /* Set height */
+    height: 500px; /* Set height */
     object-fit: cover; /* Cover the entire area without stretching */
 }
 
@@ -32,12 +32,13 @@
 }
 
 .poster-button {
-    background-color: white; /* White background */
-    color: green; /* Green text */
+    background-color: rgb(235, 235, 235); /* White background */
+    color: rgb(255, 13, 1); /* Green text */
     border: none; /* No border */
     border-radius: 5px; /* Rounded corners */
     padding: 10px 20px; /* Padding */
-    font-size: 1rem; /* Font size */
+    font-size:18px;
+    font-weight: 600; /* Font size */
     cursor: pointer; /* Pointer on hover */
     transition: background-color 0.3s; /* Transition effect */
 }

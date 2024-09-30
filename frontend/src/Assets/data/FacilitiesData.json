@@ -1,0 +1,36 @@
+[
+    {
+        "title":"Cutting Shop",
+        "photo": 0
+    },
+    {
+        "title":"Die Shop",
+        "photo": 1
+    },
+    {
+        "title":"Open Die Forging",
+        "photo": 2
+    },
+    {
+        "title":"Closed Die Forging",
+        "photo":3
+    },
+    {
+
+        "title":" Ring Rolling Forging",
+        "photo": 4
+    },
+    {
+        "title":"Heat Treatment Facility",
+        "photo": 5
+    },
+    {
+        "title":" Annealing Facility",
+        "photo":6
+    },
+    {
+        "title":"Machine Shop",
+        "photo":7
+    }
+]
+

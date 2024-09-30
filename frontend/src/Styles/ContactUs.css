@@ -27,10 +27,9 @@
 .contain_footer{
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
     padding: 20px; 
      margin: 30px;
-    background-color: rgb(255, 240, 240);
+    background-color: rgb(240, 254, 255);
 }
 .contain_left{
     display: flex;
@@ -118,4 +117,21 @@ input, textarea {
         background-color: aliceblue;
     }
 }
-
+@media screen and (max-width:400px){
+    .first_text{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .contactus_container{
+        width: 100%;
+        margin: auto;
+    }
+    .first_header{
+        padding: 10px;
+    }
+    .contain_footer{
+        padding: 10px; 
+         margin: 10px;
+        background-color: rgb(240, 254, 255);
+    }
+}

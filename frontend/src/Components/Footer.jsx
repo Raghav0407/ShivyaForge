@@ -34,7 +34,7 @@ const Footer = () => {
             <ArrowForwardIosIcon style={{height:"15px",width:"15px"}}/>
           </div>
           <div className='list1_text'>
-            <Link to="/" className='icon_list1'>Home</Link>
+            <Link to="/home" className='icon_list1'>Home</Link>
           </div>
         </div>
         <div className='footer1_list'>
@@ -50,7 +50,7 @@ const Footer = () => {
           <ArrowForwardIosIcon style={{height:"15px",width:"15px"}}/>
           </div>
           <div className='list1_text'>
-            <Link to="/" className='icon_list1'>Product Show</Link>
+            <Link to="/productshow" className='icon_list1'>Product Show</Link>
           </div>
         </div>
         <div className='footer1_list'>
@@ -58,7 +58,7 @@ const Footer = () => {
           <ArrowForwardIosIcon style={{height:"15px",width:"15px"}}/>
           </div>
           <div className='list1_text'>
-            <Link to="/" className='icon_list1'>About Us</Link>
+            <Link to="/aboutus" className='icon_list1'>About Us</Link>
           </div>
         </div>
         <div className='footer1_list'>
@@ -66,7 +66,7 @@ const Footer = () => {
           <ArrowForwardIosIcon style={{height:"15px",width:"15px"}}/>
           </div>
           <div className='list1_text'>
-            <Link to="/" className='icon_list1'>Contact Us</Link>
+            <Link to="/contactus" className='icon_list1'>Contact Us</Link>
           </div>
         </div>
       </div>

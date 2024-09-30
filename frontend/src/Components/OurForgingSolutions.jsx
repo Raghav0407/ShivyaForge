@@ -6,7 +6,7 @@ import bearingrings from '../Assets/img/bearingring.jpg'
 import bearingraces from '../Assets/img/bearingrace.webp'
 import forgedcomponents from '../Assets/img/forgedcomponent.jpg'
 import machineforged from '../Assets/img/machineforged.webp'
-export const OurForgingSolutions = () => {
+ const OurForgingSolutions = () => {
     return (
         <div className='ofs_container'>
             <div className='ofs_header'>
@@ -43,3 +43,5 @@ export const OurForgingSolutions = () => {
         </div>
     )
 }
+
+export default OurForgingSolutions;

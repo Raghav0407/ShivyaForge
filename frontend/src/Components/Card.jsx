@@ -14,7 +14,7 @@ function CardComponent(props) {
                 style={{ objectFit: 'cover', height: '150px' }} 
             />
             <Card.Body>
-                <Card.Title style={{ marginTop: '10px' , textAlign:"center" }}>{title}</Card.Title>
+                <Card.Title style={{ marginTop: '10px' , textAlign:"center",fontSize:"20px",fontWeight:"600"}}>{title}</Card.Title>
             </Card.Body>
         </Card>
     );

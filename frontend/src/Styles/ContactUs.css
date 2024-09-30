@@ -1,0 +1,121 @@
+.contactus_container{
+    width: 90%;
+    margin: auto;
+}
+.contain_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px;
+    align-items: center;
+    
+}
+.first_header{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.first_image{
+    margin-right: 20px;
+    font-size: 30px;
+}
+.first_text{
+    font-size: 20px;
+    font-weight: 600;
+}
+.contain_footer{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    padding: 20px; 
+     margin: 30px;
+    background-color: rgb(255, 240, 240);
+}
+.contain_left{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+.left_top{
+    margin: 20px;
+}
+.left_top1{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.left_top2{
+    font-size: 15px;
+}
+.left_top3{
+    font-size: 20px;
+    font-weight: 500;
+    color: grey;
+
+}
+.left_top4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.left_top4_img{
+    margin-right: 10px;
+    margin-top: 10px;
+    border: 1px solid rgb(196, 196, 196);
+    padding: 5px;
+    background-color: transparent;
+    color: inherit;
+    transition: background-color 0.3s ease, color 0.3s ease-out;
+    cursor: pointer;
+
+}
+
+.left_top4_img:hover {
+    background-color: rgb(18, 18, 18);
+    color: white;
+}
+
+
+.contain_right {
+    display: flex;
+    justify-content: center;
+   
+}
+.message_form {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to the next line if space is insufficient */
+    gap: 10px; /* Adds space between the fields */
+    justify-content: space-between; /* Adjusts spacing between items in the row */
+}
+
+.inputname {
+    display: flex;
+    flex-direction: column; /* Keep label and input in a vertical stack */
+    flex: 1 1 35%; /* Ensure input fields take 45% of the row width, adjust as needed */
+    min-width: 200px; /* Prevent the input fields from shrinking below 200px */
+}
+
+label {
+    margin-bottom: 5px; /* Adds a small gap between label and input */
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Makes the input field take up the full width of the parent */
+    box-sizing: border-box; /* Ensures padding is included in the element's width */
+}
+
+@media screen and (max-width:768px){
+    .contain_footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 20px; 
+         margin: 30px;
+        background-color: aliceblue;
+    }
+}
+

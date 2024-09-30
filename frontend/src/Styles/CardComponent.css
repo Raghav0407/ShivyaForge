@@ -21,6 +21,8 @@
 /* Heading Styles */
 .heading {
     margin: 5px; /* Remove default margin */
+    font-weight: 700;
+    font-size: 35px;
 }
 
 /* Ensure all cards have consistent spacing */

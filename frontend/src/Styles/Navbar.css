@@ -18,7 +18,7 @@
    align-items: center;
 } */
  .navbar_container{
-  position: fixed;
+  position: sticky;
   z-index: 10;
   width: 100%;
  }

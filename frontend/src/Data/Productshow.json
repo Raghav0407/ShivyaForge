@@ -1,0 +1,36 @@
+{
+  "data" : [
+      {
+        "Name" : "AutoMobile Parts",
+        "Products" : "Auto parts ball head",
+        "Process" : "Hot Forging Processing",
+        "TopImage" : "https://www.hotforgingchina.com/wp-content/uploads/2017/02/Auto-parts-ball-head.jpg",
+        "Image1" : "https://www.hotforgingchina.com/wp-content/uploads/2017/02/Auto-parts-control-arm.jpg",
+        "Image2" : "https://www.hotforgingchina.com/wp-content/uploads/2017/02/Automobile-Parts.jpg"
+      },
+      {
+        "Name" : "Construction Parts",
+        "Products" : "Cutting Picks",
+        "Process" : "Hot Forging Processing",
+        "TopImage" : "https://www.teknovak.com/en/wp-content/uploads/2022/11/forged.webp",
+        "Image1" : "https://www.hotforgingchina.com/wp-content/uploads/2017/02/Construction-Parts1.jpg",
+        "Image2" : "https://www.hotforgingchina.com/wp-content/uploads/2017/02/Construction-Parts.jpg"
+      },
+      {
+        "Name" : "Hardware Tools",
+        "Products" : "Hardware Tools",
+        "Process" : "Hot Forging Processing",
+        "TopImage" : "https://www.hotforgingchina.com/wp-content/uploads/2017/02/Hardware-Tools2.jpg",
+        "Image1" : "https://www.hotforgingchina.com/wp-content/uploads/2017/02/Hardware-Tools.jpg",
+        "Image2" : "https://www.hotforgingchina.com/wp-content/uploads/2017/02/Hardware-Tools1.jpg"
+      },
+      {
+        "Name" : "Agricultural And Forestry Machinery Parts",
+        "Products" : "Forestry Mulcher Teeth",
+        "Process" : "Hot forging processing",
+        "TopImage" : "https://www.hotforgingchina.com/wp-content/uploads/2017/02/Quadco-Teeth.jpg",
+        "Image1" : "https://www.hotforgingchina.com/wp-content/uploads/2017/02/Fae-Teeth.jpg",
+        "Image2" : "https://www.hotforgingchina.com/wp-content/uploads/2017/02/Forestry-Mulcher-Teeth.jpg"
+      }
+  ]
+}

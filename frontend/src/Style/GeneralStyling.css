@@ -38,3 +38,29 @@
     font-weight: 100;
     font-style: normal;
 }
+
+
+.hover-img {
+    transition: transform 0.3s ease-in-out; /* Smooth transition for image movement */
+}
+
+.hover-img:hover {
+    transform: translateY(-40px); /* Move the image slightly up */
+}
+
+/* Search Icon Styles */
+.search-icon {
+    position: absolute; /* Position it relative to the container */
+    bottom: 10px; /* Position it below the image */
+    left: 50%; /* Center it horizontally */
+    transform: translateX(-50%); /* Center it with respect to its width */
+    font-size: 20px; /* Adjust the size of the icon */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out, bottom 0.3s ease-in-out; /* Transition for opacity and position */
+}
+
+/* Hover effect for showing the icon */
+.image-container:hover .search-icon {
+    bottom: 30px; /* Move up when hovered */
+    opacity: 1; /* Fade in the icon */
+}

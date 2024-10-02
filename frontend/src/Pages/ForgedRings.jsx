@@ -1,13 +1,14 @@
 import React from 'react'
-import Products from '../Components/Products'
-import ForgedComponents from '../Components/ForgedComponents'
+
+import ForgingRings from '../Components/ForgingRings'
 
 
 const ForgedRings = () => {
   return (
     <>
-    <ForgedComponents/>
-    <Products/>
+
+    <ForgingRings/>
+
     </>
   
   )

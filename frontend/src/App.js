@@ -11,6 +11,8 @@ import AboutPage from './Pages/AboutPage';
 import ProductPage from './Pages/ProductPage';
 import HomePage from './Pages/HomePage';
 import ForgedRings from './Pages/ForgedRings';
+import ForgedCompPage from './Pages/ForgedCompPage';
+import MachineForgedComp from './Pages/MachineForgedComp';
 function App() {
 
   return (
@@ -23,6 +25,8 @@ function App() {
           <Route path='/productshow' element={<ProductPage />} />
           <Route path='/' element={<HomePage />} />
           <Route path='/components/forgedrings' element={<ForgedRings/>}/>
+          <Route path='/components/forgedcomp' element={<ForgedCompPage/>}/>
+          <Route path='/components/machforgedcomp' element={<MachineForgedComp/>}/>
         </Routes>
         <Poster />
         <Footer />

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import { Link } from 'react-router-dom';
 import { Button } from '@mui/material';
 import SendIcon from '@mui/icons-material/Send';
@@ -11,25 +11,7 @@ const Navbar = () => {
 
   const [menu, setMenu] = useState(false);
   const [partClick, setPartClick] = useState(false);
-  const [navbarBg, setNavbarBg] = useState('transparent');
 
-  useEffect(() => {
-
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY; // Get the current scroll position
-      if (scrollPosition > 100) { // Change color after scrolling down 100 pixels
-        setNavbarBg('grey'); // Change to your desired color
-      } else {
-        setNavbarBg('transparent'); // Change back to original color
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll); // Add scroll listener
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    }
-  }, [])
   const handleMenuClick = () => {
     console.log(menu, "click")
     setMenu(!menu);
@@ -38,6 +20,8 @@ const Navbar = () => {
     console.log(partClick, "partClicked")
     setPartClick(!partClick);
   }
+
+
   return (
     <div className='navbar_container'>
       <div className='navbar2_container'>
@@ -48,14 +32,16 @@ const Navbar = () => {
           <Link to="/" className='t2_link'>Home</Link>
         </div>
         <div className='nav2_t2' style={{ position: 'relative' }}>
-          <Link to="/" className='t2_link' onClick={handlePartClick}>Hot Forging Components</Link>
+          <div className='t2_link' onClick={handlePartClick}>Hot Forging Components</div>
           {partClick && (
             <div className='part_dropdown' style={{ position: 'absolute', top: '100%', left: 0 }}>
-              <div className='part1_text'>Forged Rings</div>
+              <div className='part1_text'>
+                <Link to='/components/forgedrings' style={{ textDecoration: "none", color: "inherit" }}>Forged Rings</Link></div>
               <Divider orientation="horizontal" flexItem className='nav2_div_menu' />
-              <div className='part1_text'>Forged Components</div>
+              <div className='part1_text'>
+                <Link to='/components/forgedcomp' style={{ textDecoration: "none", color: "inherit" }}>Forged Components</Link></div>
               <Divider orientation="horizontal" flexItem className='nav2_div_menu' />
-              <div className='part1_text'>Machine Forged Components</div>
+              <div className='part1_text'><Link to='/components/machforgedcomp' style={{ textDecoration: "none", color: "inherit" }}>Machine Forged Components</Link></div>
             </div>
           )}
         </div>
@@ -91,20 +77,20 @@ const Navbar = () => {
           </div>
           <Divider orientation="horizontal" flexItem variant='middle' />
           <div className='nav2_t2_menu'>
-            <Link to="/" className='t2_link' onClick={handlePartClick}>Hot Forging Components</Link>
+            <div className='t2_link' onClick={handlePartClick}>Hot Forging Components</div>
           </div>
           {
             partClick ? <div className='part1_dropdown'>
               <div className='part1_text'>
-                Forged Rings
+                <Link to='/components/forgedrings' style={{ textDecoration: "none", color: "inherit" }}>Forged Rings</Link>
               </div>
               <Divider orientation="horizontal" flexItem className='nav2_div_menu' />
               <div className='part1_text'>
-                Forged Components
+                <Link to='/components/forgedcomp' style={{ textDecoration: "none", color: "inherit" }}>Forged Components</Link>
               </div>
               <Divider orientation="horizontal" flexItem className='nav2_div_menu' />
               <div className='part1_text'>
-                Machine Forged Components              </div>
+                <Link to='/components/machforgedcomp' style={{ textDecoration: "none", color: "inherit" }}> Machine Forged Components    </Link>          </div>
             </div> : <></>
           }
           <Divider orientation="horizontal" flexItem variant='middle' className='nav2_div_menu' />

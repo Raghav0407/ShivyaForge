@@ -1,11 +1,38 @@
 import "../Style/GeneralStyling.css"
 import Data from "../Data/Forged.json"
 import {useEffect, useState} from "react";
+import forgedimg from '../Assets/img/assets/ForgedRings/ForgedRings.jpg'
+import img1 from '../Assets/img/assets/ForgedRings/Img1.jpg';
+import img2 from '../Assets/img/assets/ForgedRings/Img2.jpg';
+import img3 from '../Assets/img/assets/ForgedRings/Img3.jpg';
+import img4 from '../Assets/img/assets/ForgedRings/Img4.jpg';
+import img5 from '../Assets/img/assets/ForgedRings/Img5.jpg';
+import img6 from '../Assets/img/assets/ForgedRings/Img6.jpg';
+import img7 from '../Assets/img/assets/ForgedRings/Img7.jpg';
+import img8 from '../Assets/img/assets/ForgedRings/Img8.jpg';
+import img9 from '../Assets/img/assets/ForgedRings/Img9.jpg';
+import img10 from '../Assets/img/assets/ForgedRings/Img10.jpg';
+import img11 from '../Assets/img/assets/ForgedRings/Img11.jpg';
+import img12 from '../Assets/img/assets/ForgedRings/Img12.jpg';
 
 const ForgingRings = () => {
     const [data, setData] = useState([])
-
+    const imageMap = {
+        "Img1.jpg": img1,
+        "Img2.jpg": img2,
+        "Img3.jpg": img3,
+        "Img4.jpg": img4,
+        "Img5.jpg": img5,
+        "Img6.jpg": img6,
+        "Img7.jpg": img7,
+        "Img8.jpg": img8,
+        "Img9.jpg": img9,
+        "Img10.jpg": img10,
+        "Img11.jpg": img11,
+        "Img12.jpg": img12,
+    };
     useEffect(() => {
+
         setData(Data.ForgedRings);
         console.log(data);
     }, []);
@@ -22,7 +49,7 @@ const ForgingRings = () => {
                 <div className="col-12 d-flex justify-content-center m-3">
                     <div className="w-50 row text-center overflow-hidden position-relative image-container">
                         <img className="img-fluid hover-img col-12"
-                             src={`assets/ForgedRings/ForgedRings.jpg`}
+                             src={forgedimg}
                              alt="Auto parts ball head"/>
                         <i className="bi bi-search search-icon col-12"></i>
                         <div className="custom-font-p bg-light text-muted col-12">{data.Name}</div>
@@ -52,7 +79,7 @@ const ForgingRings = () => {
                         {data?.Parts?.map((p) => (
                             <div className="col-lg-3 col-md-4 col-sm-6 mb-3 image-zoom">
                                 <img className="img-fluid img-block rounded-2 shadow"
-                                     src={`assets/ForgedRings/${p.img}`} alt="part-image"/>
+                                     src={imageMap[p.img]} alt="part-image"/>
                                 <div className="custom-font-p bg-light text-center text-muted">{p.Name}</div>
                             </div>
                         ))}

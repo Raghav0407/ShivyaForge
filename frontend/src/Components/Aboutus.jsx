@@ -5,18 +5,9 @@ import {AboutusPart2} from './AboutusPart2';
 
 const Aboutus = () => {
     return (
-        <>
+        <div>
             {/* Black Section */}
-            <Container fluid className="aboutus-black-section">
-                <h1 className="aboutus-title">About Us</h1>
-                <h3 className="aboutus-subtitle">Welcome to Shivyaforge</h3>
-                <br />
-                <p className="aboutus-paragraph">
-                    SHIVYA FORGE is a leading manufacturer and exporter of forged flanges, fittings, rings, bearing components, and precision machined parts based in Gujarat, India.
-                </p>
-            </Container>
-
-            {/* Overlapping Containers Parent */}
+                       {/* Overlapping Containers Parent */}
             <Container fluid className="aboutus-overlapping-parent">
                 {/* First Overlapping Container */}
                 <div className="aboutus-container">
@@ -58,7 +49,7 @@ const Aboutus = () => {
             </Container>
             
             <AboutusPart2 />
-        </>
+        </div>
     );
 };
 

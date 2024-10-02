@@ -2,7 +2,9 @@ import './App.css';
 import Poster from './Components/Poster';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
+
 
 import ContactPage from './Pages/ContactPage';
 import AboutPage from './Pages/AboutPage';

@@ -59,7 +59,7 @@ const ContactUs = () => {
                         <SendToMobileIcon style={{ width: "60px", height: "60px", color: "rgb(33, 170, 215)" }} />
                     </div>
                     <div className='first_text'>
-                        Mobile<br />info@shivyaforge.com
+                        Mobile<br />7600554583
                     </div>
                 </div>
                 <div className='first_header'>
@@ -67,7 +67,7 @@ const ContactUs = () => {
                         <CallIcon style={{ width: "60px", height: "60px", color: "rgb(33, 170, 215)" }} />
                     </div>
                     <div className='first_text'>
-                        Telephone<br />info@shivyaforge.com
+                        Telephone<br />7600554583
                     </div>
                 </div>
             </div>
@@ -87,7 +87,7 @@ const ContactUs = () => {
                             Our Factory
                         </div>
                         <div className='left_top2'>
-                            LongBanShan Industrial Park, YunFeng Street   SuiChang, Lishui,China
+                        K-401, Krish Gold, Ankur Chokadi, New India Colony, Ankur Tenament, Nikol, Ahmedabad, Gujarat 382350
                         </div>
                     </div>
                     <div className='left_top'>

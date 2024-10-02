@@ -48,14 +48,16 @@ const Navbar = () => {
           <Link to="/" className='t2_link'>Home</Link>
         </div>
         <div className='nav2_t2' style={{ position: 'relative' }}>
-          <Link to="/" className='t2_link' onClick={handlePartClick}>Hot Forging Components</Link>
+          <div className='t2_link' onClick={handlePartClick}>Hot Forging Components</div>
           {partClick && (
             <div className='part_dropdown' style={{ position: 'absolute', top: '100%', left: 0 }}>
-              <div className='part1_text'>Forged Rings</div>
+              <div className='part1_text'>
+                <Link to='/components/forgedrings' style={{textDecoration:"none",color:"inherit"}}>Forged Rings</Link></div>
               <Divider orientation="horizontal" flexItem className='nav2_div_menu' />
-              <div className='part1_text'>Forged Components</div>
+              <div className='part1_text'>
+              <Link to='/components/forgedrings'style={{textDecoration:"none",color:"inherit"}}>Forged Components</Link></div>
               <Divider orientation="horizontal" flexItem className='nav2_div_menu' />
-              <div className='part1_text'>Machine Forged Components</div>
+              <div className='part1_text'><Link to='/components/forgedrings'style={{textDecoration:"none",color:"inherit"}}>Machine Forged Components</Link></div>
             </div>
           )}
         </div>
@@ -91,20 +93,20 @@ const Navbar = () => {
           </div>
           <Divider orientation="horizontal" flexItem variant='middle' />
           <div className='nav2_t2_menu'>
-            <Link to="/" className='t2_link' onClick={handlePartClick}>Hot Forging Components</Link>
+            <div className='t2_link' onClick={handlePartClick}>Hot Forging Components</div>
           </div>
           {
             partClick ? <div className='part1_dropdown'>
               <div className='part1_text'>
-                Forged Rings
+                <Link to='/components/forgedrings'style={{textDecoration:"none",color:"inherit"}}>Forged Rings</Link>
               </div>
               <Divider orientation="horizontal" flexItem className='nav2_div_menu' />
               <div className='part1_text'>
-                Forged Components
+                <Link to='/components/forgedcomp'style={{textDecoration:"none",color:"inherit"}}>Forged Components</Link>
               </div>
               <Divider orientation="horizontal" flexItem className='nav2_div_menu' />
               <div className='part1_text'>
-                Machine Forged Components              </div>
+               <Link to='/components/machineforged'style={{textDecoration:"none",color:"inherit"}}> Machine Forged Components    </Link>          </div>
             </div> : <></>
           }
           <Divider orientation="horizontal" flexItem variant='middle' className='nav2_div_menu' />

@@ -8,6 +8,7 @@ import ContactPage from './Pages/ContactPage';
 import AboutPage from './Pages/AboutPage';
 import ProductPage from './Pages/ProductPage';
 import HomePage from './Pages/HomePage';
+import ForgedRings from './Pages/ForgedRings';
 function App() {
 
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/aboutus' element={<AboutPage />} />
           <Route path='/productshow' element={<ProductPage />} />
           <Route path='/' element={<HomePage />} />
+          <Route path='/components/forgedrings' element={<ForgedRings/>}/>
         </Routes>
         <Poster />
         <Footer />

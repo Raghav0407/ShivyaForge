@@ -1,6 +1,7 @@
-import "../Style/GeneralStyling.css"
+import "../Styles/GeneralStyling.css"
 import Data from "../Data/Productshow.json"
 import {useEffect, useState} from "react";
+import { Link } from "react-router-dom";
 
 const ForgingParts = ({index = 2}) => {
     const [data, setData] = useState([])
@@ -40,14 +41,14 @@ const ForgingParts = ({index = 2}) => {
                     </div>
                 </div>
                 <div className="col-12 m-1 d-flex flex-row">
-                    <div><i className="bi bi-facebook m-1"></i></div>
-                    <div><i className="bi bi-google m-1"></i></div>
-                    <div><i className="bi bi-pinterest m-1"></i></div>
+                    <div><Link to ='https://www.facebook.com/shivyaforge' ><i className="bi bi-facebook m-1"></i></Link></div>
+                    <div><Link to ='https://shivyaforge.com/'><i className="bi bi-google m-1"></i></Link></div>
+                  
                 </div>
                 <div className="col-12">
                     <div className="row">
-                        <div className="col-6"><img className="img-fluid p-5" alt="parts" src={data.Image1} /></div>
-                        <div className="col-6"><img className="img-fluid p-5" alt="parts" src={data.Image2}/></div>
+                        <div className="col-sm-12 col-md-6"><img className="img-fluid p-5" alt="parts" src={data.Image1} /></div>
+                        <div className="col-sm-12 col-md-6"><img className="img-fluid p-5" alt="parts" src={data.Image2}/></div>
                     </div>
                 </div>
             </div>

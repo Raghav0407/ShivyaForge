@@ -1,0 +1,23 @@
+Index: frontend/src/App.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import './App.css';\n\nfunction App() {\n  return (\n    <div className=\"App\">\n    </div>\n  );\n}\n\nexport default App;\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/frontend/src/App.js b/frontend/src/App.js
+--- a/frontend/src/App.js	(revision 68cfb10e5b515e0d8fdd68639c29f484d9301f5d)
++++ b/frontend/src/App.js	(date 1727453088238)
+@@ -1,8 +1,12 @@
+ import './App.css';
++import ProductsShow from "./Components/ProductsShow";
++import Parts from "./Components/Parts";
+ 
+ function App() {
+   return (
+     <div className="App">
++      <ProductsShow />
++      <Parts />
+     </div>
+   );
+ }

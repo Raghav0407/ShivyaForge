@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13ce78cc-c0d7-4808-9662-53bbd451919f" name="Changes" comment="Added some components">
-      <change afterPath="$PROJECT_DIR$/frontend/src/Components/ForgedComponents.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Data/Forged.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/Components/ForgingParts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/ForgingRings.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="13ce78cc-c0d7-4808-9662-53bbd451919f" name="Changes" comment="Added some components" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +109,7 @@
       <workItem from="1727375607351" duration="52000" />
       <workItem from="1727453022656" duration="1694000" />
       <workItem from="1727454725782" duration="969000" />
-      <workItem from="1727705797910" duration="19440000" />
+      <workItem from="1727705797910" duration="20069000" />
     </task>
     <task id="LOCAL-00001" summary="Added Parts and ProductShow components">
       <option name="closed" value="true" />

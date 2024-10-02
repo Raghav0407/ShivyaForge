@@ -1,0 +1,19 @@
+/* CardComponent.css */
+
+/* Ensure all cards have consistent spacing */
+.card {
+    margin: 10px; /* Adds margin around each card */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card {
+        max-width: 90%; /* Make cards take up more width on smaller screens */
+    }
+}
+
+@media (min-width: 769px) {
+    .card {
+        max-width: 300px; /* Limit the width on larger screens */
+    }
+}

@@ -17,10 +17,7 @@
     
 }
 .footerhead_container{
-    background-image:url("../Assets/img/background1.avif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-color: rgb(82, 33, 0); */
+    background-image: linear-gradient(rgb(35, 35, 35),grey);
 }
 .footer1_container{
     display: flex;

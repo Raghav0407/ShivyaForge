@@ -1,0 +1,111 @@
+.poster-container {
+    position: relative; /* Position relative for absolute positioning of content */
+    width: 100%; /* Full width */
+    display: flex; /* Use Flexbox */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.poster-image {
+    width: 100%; /* Full width image */
+    height: 500px; /* Set height */
+    object-fit: cover; /* Cover the entire area without stretching */
+}
+
+.poster-content {
+    position: absolute; /* Positioning the content over the image */
+    text-align: center; /* Center align text */
+    color: white; /* White color for text */
+    z-index: 2; /* Ensure content is above image */
+}
+
+.poster-heading {
+    font-size: 3rem; /* Size of the heading */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.poster-description {
+    font-size: 1.5rem; /* Size of the description */
+    margin-bottom: 30px; /* Space below description */
+}
+
+.poster-button {
+    background-color: rgb(235, 235, 235); /* White background */
+    color: rgb(255, 13, 1); /* Green text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding */
+    font-size:18px;
+    font-weight: 600; /* Font size */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+.poster-button:hover {
+    background-color: lightgray; /* Change color on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .poster-heading {
+        font-size: 2.5rem; /* Smaller heading size for large screens */
+    }
+
+    .poster-description {
+        font-size: 1.2rem; /* Smaller description size for large screens */
+    }
+}
+
+@media (max-width: 992px) {
+    .poster-image {
+        height: 350px; /* Adjust height for medium screens */
+    }
+
+    .poster-heading {
+        font-size: 2rem; /* Smaller heading size for medium screens */
+    }
+
+    .poster-description {
+        font-size: 1.1rem; /* Smaller description size for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .poster-image {
+        height: 300px; /* Further adjust height for tablets */
+    }
+
+    .poster-heading {
+        font-size: 1.8rem; /* Smaller heading size for tablets */
+    }
+
+    .poster-description {
+        font-size: 1rem; /* Smaller description size for tablets */
+    }
+
+    .poster-button {
+        padding: 8px 16px; /* Smaller button padding for tablets */
+        font-size: 0.9rem; /* Smaller button font size for tablets */
+    }
+}
+
+@media (max-width: 576px) {
+    .poster-image {
+        height: 250px; /* Further adjust height for phones */
+    }
+
+    .poster-heading {
+        font-size: 1.5rem; /* Smaller heading size for phones */
+    }
+
+    .poster-description {
+        font-size: 0.9rem; /* Smaller description size for phones */
+    }
+
+    .poster-button {
+        padding: 6px 12px; /* Smaller button padding for phones */
+        font-size: 0.8rem; /* Smaller button font size for phones */
+    }
+}

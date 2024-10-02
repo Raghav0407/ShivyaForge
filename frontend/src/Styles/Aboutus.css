@@ -1,0 +1,156 @@
+/* Global styles for responsive text scaling */
+/* html {
+    font-size: 16px;
+} */
+
+.aboutus-black-section {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centering content */
+    padding: 20px;
+    margin-bottom: -25px;
+    z-index: 1;
+}
+
+.aboutus-title {
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem; /* Responsive font size */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.aboutus-subtitle {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.aboutus-paragraph {
+    color: white;
+    text-align: center;
+    margin: 0 40px;
+    padding: 0 20px;
+    font-size: 1rem; /* Ensure readable font size on all screens */
+    line-height: 1.6; /* Improved readability */
+}
+
+.aboutus-overlapping-parent {
+    display: flex;
+    flex-wrap: wrap; /* Allow children to wrap on smaller screens */
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.aboutus-container {
+    flex: 1 1 30%; /* Flexibly allow width adjustments */
+    height: auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.aboutus-red-stripe {
+    width: 20%;
+    height: 7px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+.aboutus-container-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.aboutus-paragraph-justify {
+    text-align: justify;
+    overflow-wrap: break-word; /* Prevent overflow */
+    line-height: 1.6; /* Improve readability */
+    font-size: 1rem; /* Ensure responsive font size */
+}
+
+.aboutus-list {
+    font-size: 1rem;
+    margin: 5px;
+}
+
+.aboutus-list-item {
+    margin: 5px;
+}
+
+.aboutus-quality-assurance {
+    color: grey;
+    font-size: 1rem;
+}
+
+/* Media Query for Tablets and Mobile Screens */
+@media (max-width: 768px) {
+    .aboutus-overlapping-parent {
+        flex-direction: column; /* Stack containers vertically */
+        align-items: center; /* Center containers */
+    }
+
+    .aboutus-container {
+        width: 100%; /* Full width for smaller screens */
+        margin: 10px 0;
+        padding: 15px;
+    }
+
+    .aboutus-black-section {
+        padding: 10px; /* Adjust padding */
+    }
+
+    .aboutus-title {
+        font-size: 2rem; /* Slightly smaller font for mobile */
+    }
+
+    .aboutus-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .aboutus-paragraph {
+        font-size: 0.9rem;
+        margin: 0 20px;
+    }
+
+    .aboutus-container-title {
+        font-size: 1.3rem;
+    }
+
+    .aboutus-paragraph-justify {
+        font-size: 0.9rem;
+    }
+}
+
+/* Media Query for Smaller Mobile Screens */
+@media (max-width: 480px) {
+    .aboutus-title {
+        font-size: 1.8rem; /* Even smaller for very small screens */
+    }
+
+    .aboutus-subtitle {
+        font-size: 1rem;
+    }
+
+    .aboutus-paragraph {
+        font-size: 0.8rem;
+        margin: 0 15px;
+    }
+
+    .aboutus-container-title {
+        font-size: 1.2rem;
+    }
+
+    .aboutus-paragraph-justify {
+        font-size: 0.8rem;
+    }
+}

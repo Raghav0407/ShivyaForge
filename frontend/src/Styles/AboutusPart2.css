@@ -1,0 +1,61 @@
+.aboutuspart2-container {
+  width: 100%; /* Full width */
+  padding: 0; /* Remove default padding */
+  margin-top: auto; /* Add top margin */
+  min-height: 100vh; /* Minimum height set to 100% of viewport height */
+}
+
+.aboutuspart2-row {
+  display: flex; /* Flexbox for rows */
+  width: 100%; /* Full width */
+  margin: 0; /* No margin */
+  flex-wrap: wrap; /* Ensure columns wrap on smaller screens */
+}
+
+.aboutuspart2-column {
+  display: flex; /* Flexbox for columns */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  padding: 20px; /* Add some padding to avoid overflow */
+  height: auto; /* Remove fixed height */
+  flex: 1; /* Allow the column to take up available space */
+  min-height: 300px; /* Minimum height for smaller screens */
+}
+
+.flag-container {
+  margin-left: 10px; /* Left margin */
+  display: flex; /* Flexbox for flag layout */
+  flex-wrap: wrap; /* Allow flags to wrap */
+  gap: 15px; /* Space between flags */
+  justify-content: flex-start; /* Align flags to the left */
+  max-width: 100%; /* Ensure the container does not overflow */
+}
+
+.aboutuspart2-flag {
+  width: 60px; /* Flag width */
+  padding: 5px; /* Padding inside flag image */
+  border: 1px solid #ccc; /* Border around the flag */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Responsive adjustments for smaller devices */
+@media (max-width: 768px) {
+  .aboutuspart2-column {
+      width: 100%; /* Full width for each column */
+      min-height: auto; /* Allow flexible height */
+  }
+
+  .aboutuspart2-flag {
+      width: 50px; /* Smaller flag width */
+  }
+}
+
+@media (max-width: 576px) {
+  .aboutuspart2-flag {
+      width: 40px; /* Smaller flag width for mobile */
+  }
+
+  .flag-container {
+    justify-content: center; /* Center flags on mobile */
+  }
+}

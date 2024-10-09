@@ -6,15 +6,15 @@ function CardComponent(props) {
     const { title, photo } = props;
     
     return (
-        <Card className="mb-4" style={{ width: '100%', maxWidth: '300px' }}> {/* Set maxWidth for responsiveness */}
+        <Card className="mb-3" style={{ width: '100%', maxWidth: '300px' ,border:"none"}}> {/* Set maxWidth for responsiveness */}
             <Card.Img 
                 variant="top" 
                 src={photo} 
                 alt="images" 
-                style={{ objectFit: 'cover', height: '150px' }} 
+                style={{ objectFit: 'cover', height: '150px' ,borderTopLeftRadius:"50px",borderBottomRightRadius:"50px",border:"4px solid orange"}} 
             />
             <Card.Body>
-                <Card.Title style={{ marginTop: '10px' , textAlign:"center",fontSize:"20px",fontWeight:"600"}}>{title}</Card.Title>
+                <Card.Title style={{ textAlign:"left",fontSize:"20px",fontWeight:"600",color:"orange"}}>{title}</Card.Title>
             </Card.Body>
         </Card>
     );

@@ -1,34 +1,22 @@
 [
     {
-        "title":"Atuomobiles",
+        "title":"Automotive",
         "photo": 0
     },
     {
-        "title":"Bearings",
+        "title":"Agricultural Machinery",
         "photo": 1
     },
     {
-        "title":"Gears & Gear Box",
+        "title":"Bearings",
         "photo": 2
     },
     {
-        "title":"Earth Moving",
+        "title":"Oil and Gas",
         "photo":3
     },
     {
-        "title":"Valves",
+        "title":"Gears and Transmission",
         "photo": 4
-    },
-    {
-        "title":"Oil and Gas",
-        "photo": 5
-    },
-    {
-        "title":"Power",
-        "photo":6
-    },
-    {
-        "title":"Iron & Steel",
-        "photo":7
     }
 ]

@@ -11,8 +11,8 @@ const HomePage = () => {
     <Carousel/>
     <OurForgingSolutions/>
     <CardComponent/>
-    <ComponentAndParts/>
-    <Facilities/>
+    {/* <ComponentAndParts/> */}
+    {/* <Facilities/> */}
     <GTAndLN/>
     </>
   )

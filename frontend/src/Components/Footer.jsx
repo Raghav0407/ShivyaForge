@@ -72,10 +72,23 @@ const Footer = () => {
         </div>
         <div className='footer2_container'>
           <div className='footer1_header'>
-            Contact Information
+            Contact
           </div>
           <div className='footer1_list'>
-            K-401, Krish Gold, Ankur Chokadi <br />New India Colony,Ankur Tenament Nikol, <br />Ahmedabad, Gujarat 382350
+            <div className='list1_icon'>
+              <ArrowForwardIosIcon style={{ height: "15px", width: "15px" }} />
+            </div>
+            <div className='list1_text'>
+              <Link to="info@shivyaforge.com" className='icon_list1'>Email : info@shivyaforge.com</Link>
+            </div>
+          </div>
+          <div className='footer1_list'>
+            <div className='list1_icon'>
+              <ArrowForwardIosIcon style={{ height: "15px", width: "15px" }} />
+            </div>
+            <div className='list1_text'>
+              <Link to="https://www.shivyaforge.com" className='icon_list1'>Website : www.shivyaforge.com</Link>
+            </div>
           </div>
         </div>
         <div className='footer3_container'>
@@ -86,12 +99,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className='copyright_footer'>
-        <hr />
-        <div className='copyright_text'>
-          Copyright &copy; 2024 Shivya Forging Pvt Ltd., | Powered by India
-        </div>
-      </div>
+     
     </div>
   )
 }

@@ -9,14 +9,14 @@
 
 .poster-image {
     width: 100%; /* Full width image */
-    height: 500px; /* Set height */
+    height: 200px; /* Set height */
     object-fit: cover; /* Cover the entire area without stretching */
 }
 
 .poster-content {
     position: absolute; /* Positioning the content over the image */
     text-align: center; /* Center align text */
-    color: white; /* White color for text */
+    color: orange; /* White color for text */
     z-index: 2; /* Ensure content is above image */
 }
 
@@ -29,22 +29,6 @@
 .poster-description {
     font-size: 1.5rem; /* Size of the description */
     margin-bottom: 30px; /* Space below description */
-}
-
-.poster-button {
-    background-color: rgb(235, 235, 235); /* White background */
-    color: rgb(255, 13, 1); /* Green text */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
-    padding: 10px 20px; /* Padding */
-    font-size:18px;
-    font-weight: 600; /* Font size */
-    cursor: pointer; /* Pointer on hover */
-    transition: background-color 0.3s; /* Transition effect */
-}
-
-.poster-button:hover {
-    background-color: lightgray; /* Change color on hover */
 }
 
 /* Responsive Styles */

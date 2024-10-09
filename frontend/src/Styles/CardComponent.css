@@ -1,10 +1,11 @@
 /* Ensure the CardComponent container takes up 80% of the width and is centered */
 .cardcomponent-container {
-    width: 80%; /* Takes up 80% of the width */
+    width: 90%; /* Takes up 80% of the width */
     margin: 20px auto; /* Adds margin above and below, centers the container horizontally */
     display: flex; /* Enable flexbox layout */
     flex-wrap: wrap; /* Ensures cards wrap on smaller screens */
     justify-content: space-between; /* Adds equal spacing between the cards */
+    border: 2px solid orange;
 }
 
 /* Heading Container Styles */
@@ -12,7 +13,6 @@
     width: 100%; /* Set width to 80% */
     margin: 0 auto 20px; /* Center the heading and add margin below */
     padding: 10px; /* Add padding */
-    border: 1px solid rgba(128, 128, 128, 0.37); /* Grey border */
     border-radius: 10px; /* Rounded corners */
     text-align: center; /* Center the text */
     background-color: white; /* Background color */
@@ -28,7 +28,7 @@
 /* Ensure all cards have consistent spacing */
 .card {
     margin: 10px; /* Adds margin around each card */
-    flex: 1 1 250px; /* Ensures cards take a flexible width with a minimum of 250px */
+    flex: 1 1 200px; /* Ensures cards take a flexible width with a minimum of 250px */
     box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 

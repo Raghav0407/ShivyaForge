@@ -8,8 +8,6 @@ function Poster() {
       <img src={posterphoto} alt="Poster" className="poster-image" />
       <div className="poster-content">
         <h1 className="poster-heading">Ready to Forge A Partnership With Shivyaforge</h1>
-        <p className="poster-description">Get in Touch Today for Expert Solution Tailored to Your Needs</p>
-        <Link to="/contactus"><button className="poster-button">Get In Touch</button></Link>
       </div>
     </div>
   );

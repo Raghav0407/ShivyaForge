@@ -10,10 +10,10 @@ import machineforged from '../Assets/img/machineforged.webp'
     return (
         <div className='ofs_container'>
             <div className='ofs_header'>
-                <div className='header_style'>Our Forging Solutions</div>
+                <div className='header_style' style={{color:"orange"}}>Our Customized Forging Solutions</div>
                 <div className='header2_style'>
-                    Forging Solutions for Machine Tools, Heavy Electrical, Earth Moving, Oil <br />Exploration, and Railway Traction.
-                    Led by experienced Technocrats
+                Customized Forging Solutions for Automotive, Agricultural Machinery, Bearings, Oil <br/>
+                and Gas, Gears & Transmission and other Mechanical Industries.
                 </div>
             </div>
             <div className='ofs_data'>
@@ -22,20 +22,12 @@ import machineforged from '../Assets/img/machineforged.webp'
                     <label className='img_label'>Forged Rings</label>
                 </div>
                 <div className='data_img1'>
-                    <img src={bearingrings} alt='/' className='img1_org' />
-                    <label className='img_label'>Bearing Rings</label>
-                </div>
-                <div className='data_img1'>
-                    <img src={bearingraces} alt='/' className='img1_org' />
-                    <label className='img_label'>Bearing Races</label>
-                </div>
-                <div className='data_img1'>
                     <img src={forgedcomponents} alt='/' className='img1_org' />
                     <label className='img_label'>Forged Components</label>
                 </div>
                 <div className='data_img1'>
                     <img src={machineforged} alt='/' className='img1_org' />
-                    <label className='img_label'>Machine Forged Parts</label>
+                    <label className='img_label'>Machined Image Parts</label>
                 </div>
 
             </div>

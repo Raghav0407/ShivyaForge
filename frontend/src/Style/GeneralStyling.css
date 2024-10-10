@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 .img-fixed {
     height: 250px;
     object-fit: cover; 
@@ -63,4 +64,38 @@
 .image-container:hover .search-icon {
     bottom: 30px; /* Move up when hovered */
     opacity: 1; /* Fade in the icon */
+}
+
+.background-div-forgedRings {
+    background-image: url('../Assets/img/ForgedRingBg.jpg'); /* Set the image URL */
+    background-size: cover; /* Make the image cover the entire div */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 150px; /* Set a height for the div */
+    width: 100%; /* Set the width to fill the parent container */
+}
+
+.background-div-forgedComponent {
+    background-image: url('../Assets/img/28.jpg'); /* Set the image URL */
+    background-size: cover; /* Make the image cover the entire div */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 150px; /* Set a height for the div */
+    width: 100%; /* Set the width to fill the parent container */
+}
+
+.image-container {
+    width: 250px;   /* Fixed width */
+    height: 200px;  /* Fixed height */
+    overflow: hidden; /* Prevents overflow of the image */
+    margin: 10px;
+    border-radius: 25% 0 25% 0;
+    border: 3px solid orange;
+}
+
+.image-container img {
+    width: 100%;     /* Ensures the image takes full width */
+    height: 100%;    /* Ensures the image takes full height */
+    object-fit: cover; /* Maintains aspect ratio and fills the container */
+    display: block;
 }

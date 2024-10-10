@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13ce78cc-c0d7-4808-9662-53bbd451919f" name="Changes" comment="Added some components" />
+    <list default="true" id="13ce78cc-c0d7-4808-9662-53bbd451919f" name="Changes" comment="Added some components">
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/ForgingAndEngineering.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Components/ForgedComponents.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/ForgedComponents.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Components/ForgingRings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/ForgingRings.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Components/GTAndLN.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/GTAndLN.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Style/GeneralStyling.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Style/GeneralStyling.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Awan_work" />
+        <entry key="$PROJECT_DIR$" value="Awan_work2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,8 +82,8 @@
   "keyToString": {
     "Node.js.ComponentAndParts.jsx.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "#20 on Awan__work2",
-    "last_opened_file_path": "/Users/apple/Desktop/FreeLancing/ShivyaForge",
+    "git-widget-placeholder": "Awan__work3",
+    "last_opened_file_path": "/Users/apple/Documents/FreeLancing/ShivyaForge",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -109,7 +120,8 @@
       <workItem from="1727375607351" duration="52000" />
       <workItem from="1727453022656" duration="1694000" />
       <workItem from="1727454725782" duration="969000" />
-      <workItem from="1727705797910" duration="20069000" />
+      <workItem from="1727705797910" duration="22091000" />
+      <workItem from="1728496492683" duration="6456000" />
     </task>
     <task id="LOCAL-00001" summary="Added Parts and ProductShow components">
       <option name="closed" value="true" />

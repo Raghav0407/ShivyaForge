@@ -1,14 +1,13 @@
 
 import './App.css';
-import Aboutus from './Components/Aboutus';
-import CardComponent from './Components/Card';
+import { NewAboutUs } from './Components/NewAboutUs';
+
 
 function App() {
  
   return (
     <div className="App">
-      <Aboutus />
-      <CardComponent />
+      <NewAboutUs />
     </div>
   );
 }

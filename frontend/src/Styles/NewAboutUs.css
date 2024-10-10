@@ -1,0 +1,139 @@
+.NewAboutUs-parent {
+    height: auto;
+    padding: 5px;
+}
+
+.NewAboutUs-first {
+    background-color: orange;
+    height: 30px;
+    color: white;
+    margin: 10px;
+}
+
+.NewAboutUs-first h3 {
+    padding: 2px;
+    margin: 20px;
+}
+
+.NewAboutUs-second {
+    margin: 10px;
+}
+
+.NewAboutUs-second p {
+    content: justify;
+    padding: 20px;
+}
+
+.NewAboutUs-third {
+    display: flex;
+    flex-direction: row;
+    height: auto; /* Change to auto to allow dynamic height */
+    justify-content: center;
+    overflow: auto;
+}
+
+.NewAboutUs-third-a {
+    width: 20%; /* Ensure the div takes full width */
+    padding: 10px;
+    display: flex;
+    flex-direction: column; /* Stack heading and list vertically */
+    justify-content: flex-start; /* Align content to the top */
+}
+
+.facilities-heading {
+    color: white;
+    background: orange;
+    padding: 5px;
+    width: 100%; /* Take full width of the parent */
+    margin: 0; /* Remove default margin */
+}
+
+.NewAboutUs-third-a ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin-top: 10px; /* Add spacing between the heading and the list */
+}
+
+.NewAboutUs-third-a li {
+    font-size: 16px;
+    text-align: left; /* Ensure the text is left-aligned */
+    margin-bottom: 5px; /* Add space between list items */
+}
+
+.NewAboutUs-third-b {
+    background-color: orange;
+    height: 280px;
+    width: 10px;
+    margin: 20px;
+}
+
+.NewAboutUs-third-c {
+    display: flex;
+    flex-direction: column; /* Ensures that the items are aligned in a column */
+    justify-content: space-between; /* Optional: Adjust space between them */
+    align-items: center; /* Vertically centers the items */
+    gap: 10px; /* Adds some space between the items */
+    width: 50%;
+}
+
+.NewAboutUs-third-c > div {
+    flex: 1; /* Makes each item take up equal space */
+    height: auto; /* Adjust the height if needed */
+}
+
+.NewAboutUs-third-d {
+    background-color: orange;
+    height: 280px;
+    width: 10px;
+    margin: 22px;
+}
+
+.NewAboutUs-third-e {
+    height: 280px;
+    width: 20%;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .NewAboutUs-third {
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .NewAboutUs-third-a,
+    .NewAboutUs-third-c,
+    .NewAboutUs-third-e,
+    .NewAboutUs-third-b,
+    .NewAboutUs-third-d {
+        width: 100%; /* Make items full width */
+        height: auto; /* Allow height to adjust based on content */
+        margin: 10px 0; /* Add vertical margin for spacing */
+    }
+
+    .NewAboutUs-third-c {
+        gap: 5px; /* Adjust gap for smaller screens */
+    }
+
+    .NewAboutUs-first,
+    .NewAboutUs-second {
+        height: auto; /* Allow heights to adjust */
+        margin: 5px 0; /* Adjust margin for smaller screens */
+    }
+
+    .facilities-heading {
+        font-size: 14px; /* Adjust font size for headings */
+    }
+
+    .NewAboutUs-third-a li {
+        font-size: 14px; /* Adjust list item font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .facilities-heading {
+        font-size: 12px; /* Further adjust heading font size */
+    }
+
+    .NewAboutUs-third-a li {
+        font-size: 12px; /* Further adjust list item font size */
+    }
+}

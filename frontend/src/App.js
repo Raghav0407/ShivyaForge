@@ -5,7 +5,7 @@ import Footer from './Components/Footer';
 
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
-
+import GTAndLN from './Components/GTAndLN';
 import ContactPage from './Pages/ContactPage';
 import AboutPage from './Pages/AboutPage';
 import ProductPage from './Pages/ProductPage';
@@ -29,6 +29,7 @@ function App() {
           <Route path='/components/machforgedcomp' element={<MachineForgedComp/>}/>
         </Routes>
         <Poster />
+        <GTAndLN/>
         <Footer />
       </BrowserRouter>
     </div>

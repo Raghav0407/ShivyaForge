@@ -31,7 +31,7 @@ const GTAndLN = () => {
         });
     }
     return (
-        <div className='container'>
+        <div className='container' style={{marginTop:"20px", border:"2px solid orange",marginBottom:"20px"}}>
             <div className='row pt-5 pb-5'>
                 <div className="col">
                     <div className="gt-header m-3">

@@ -6,12 +6,15 @@ import second from "../Assets/img/second.jpg";
 import third from "../Assets/img/third.jpg";
 import fourth from "../Assets/img/mainphoto2.jpg";
 import '../Styles/Carousels.css'; // Import a separate CSS file for styles
+import no1 from '../Assets/img/2.jpg'
+import no2 from '../Assets/img/8.jpg'
+import no3 from '../Assets/img/9.jpg'
 
 function Carousels() {
   return (
     <Carousel data-bs-theme="dark">
       <Carousel.Item interval={1500}>
-        <img src={first} alt="first" style={{ width: "100%", height: "75vh", objectFit: "cover" }} />
+        <img src={no1} alt="first" style={{ width: "100%", height: "75vh", objectFit: "cover" }} />
         <Carousel.Caption className="custom-caption">
           <h1 className="carousel-heading">Manufacturer and Exporter of <br/>Forged Components</h1>
           {/* <p className="carousel-text">Tailored forging solutions crafted with unmatched accuracy to meet your exact specifications.</p> */}
@@ -20,7 +23,7 @@ function Carousels() {
       </Carousel.Item>
 
       <Carousel.Item interval={1500}>
-        <img src={second} alt="second" style={{ width: "100%", height: "75vh", objectFit: "cover" }} />
+        <img src={no2} alt="second" style={{ width: "100%", height: "75vh", objectFit: "cover" }} />
         <Carousel.Caption className="custom-caption">
           <h1 className="carousel-heading">Manufacturer and Exporter of  <br/>Machined Forged Parts</h1>
           {/* <p className="carousel-text">Forged products built to last, delivering exceptional strength and reliability.</p> */}
@@ -29,7 +32,7 @@ function Carousels() {
       </Carousel.Item>
 
       <Carousel.Item interval={1500}>
-        <img src={third} alt="third" style={{ width: "100%", height: "75vh", objectFit: "cover" }} />
+        <img src={no3} alt="third" style={{ width: "100%", height: "75vh", objectFit: "cover" }} />
         <Carousel.Caption className="custom-caption">
           <h1 className="carousel-heading">Manufacturer and Exporter of  <br/>Forged Rings</h1>
           {/* <p className="carousel-text">Skilled artisans ensure superior workmanship and attention to detail in every forging process.</p> */}

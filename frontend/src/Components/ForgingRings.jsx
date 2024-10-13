@@ -45,8 +45,8 @@ const ForgingRings = () => {
             </div>
 
             <div className='row m-3'>
-                <div className='image-container p-0'><img className='col' src={img1} alt='img1'/></div>
-                <div className='image-container'><img className='col' src={img2} alt='img2'/></div>
+                <div className='image-container p-0' style={{backgroundSize:"contain"}}><img className='col' src={img1} alt='img1'/></div>
+                <div className='image-container' style={{objectFit:"contain"}}><img className='col' src={img2} alt='img2'/></div>
                 <div className='image-container'><img className='col' src={img3} alt='img3'/></div>
                 <div className='image-container'><img className='col' src={img4} alt='img4'/></div>
             </div>

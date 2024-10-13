@@ -48,7 +48,7 @@ const ContactUs = () => {
             <div className='contain_header'>
                 <div className='first_header'>
                     <div className='first_image'>
-                        <MailIcon style={{ width: "60px", height: "60px", color: "rgb(33, 170, 215)" }} />
+                        <MailIcon style={{ width: "60px", height: "60px", color: "orange" }} />
                     </div>
                     <div className='first_text'>
                         Have any Questions?<br />info@shivyaforge.com
@@ -56,7 +56,7 @@ const ContactUs = () => {
                 </div>
                 <div className='first_header'>
                     <div className='first_image'>
-                        <SendToMobileIcon style={{ width: "60px", height: "60px", color: "rgb(33, 170, 215)" }} />
+                        <SendToMobileIcon style={{ width: "60px", height: "60px", color: "orange" }} />
                     </div>
                     <div className='first_text'>
                         Mobile<br />7600554583
@@ -64,7 +64,7 @@ const ContactUs = () => {
                 </div>
                 <div className='first_header'>
                     <div className='first_image'>
-                        <CallIcon style={{ width: "60px", height: "60px", color: "rgb(33, 170, 215)" }} />
+                        <CallIcon style={{ width: "60px", height: "60px", color: "orange" }} />
                     </div>
                     <div className='first_text'>
                         Telephone<br />7600554583
@@ -124,7 +124,7 @@ const ContactUs = () => {
                             <textarea id="message" rows="5" cols="30"  value={data.message}  name="message" placeholder='Enter your message' onChange={submitChange}></textarea>
                         </div>
                       <div className='inputname'>
-                        <Button variant='contained' type="submit" style={{width:"40%",margin:"auto"}}>
+                        <Button variant='contained' type="submit" style={{width:"40%",margin:"auto",background:"orange"}}>
                             Submit
                         </Button>
                       </div>

@@ -25,51 +25,7 @@ const Footer = () => {
   return (
     <div className='footerhead_container'>
       <div className='footer_container'>
-        <div className='footer1_container'>
-          <div className='footer1_header'>
-            Quick Links
-          </div>
-          <div className='footer1_list'>
-            <div className='list1_icon'>
-              <ArrowForwardIosIcon style={{ height: "15px", width: "15px" }} />
-            </div>
-            <div className='list1_text'>
-              <Link to="/" className='icon_list1'>Home</Link>
-            </div>
-          </div>
-          <div className='footer1_list'>
-            <div className='list1_icon'>
-              <ArrowForwardIosIcon style={{ height: "15px", width: "15px" }} />
-            </div>
-            <div className='list1_text'>
-              <Link to="/" className='icon_list1'>Hot Forging Components and Parts</Link>
-            </div>
-          </div>
-          <div className='footer1_list'>
-            <div className='list1_icon'>
-              <ArrowForwardIosIcon style={{ height: "15px", width: "15px" }} />
-            </div>
-            <div className='list1_text'>
-              <Link to="/productshow" className='icon_list1'>Product Show</Link>
-            </div>
-          </div>
-          <div className='footer1_list'>
-            <div className='list1_icon'>
-              <ArrowForwardIosIcon style={{ height: "15px", width: "15px" }} />
-            </div>
-            <div className='list1_text'>
-              <Link to="/aboutus" className='icon_list1'>About Us</Link>
-            </div>
-          </div>
-          <div className='footer1_list'>
-            <div className='list1_icon'>
-              <ArrowForwardIosIcon style={{ height: "15px", width: "15px" }} />
-            </div>
-            <div className='list1_text'>
-              <Link to="/contactus" className='icon_list1'>Contact Us</Link>
-            </div>
-          </div>
-        </div>
+      
         <div className='footer2_container'>
           <div className='footer1_header'>
             Contact
@@ -98,6 +54,61 @@ const Footer = () => {
           <div id="map" ref={mapRef}>
           </div>
         </div>
+        <div className='footer1_container'>
+          <div className='footer1_header'>
+            Quick Links
+          </div>
+          <div className='footer1_list'>
+            <div className='list1_icon'>
+              <ArrowForwardIosIcon style={{ height: "15px", width: "15px" }} />
+            </div>
+            <div className='list1_text'>
+              <Link to="/" className='icon_list1'>Home</Link>
+            </div>
+          </div>
+        
+          <div className='footer1_list'>
+            <div className='list1_icon'>
+              <ArrowForwardIosIcon style={{ height: "15px", width: "15px" }} />
+            </div>
+            <div className='list1_text'>
+              <Link to="components/forgedrings" className='icon_list1'>Forging Products</Link>
+            </div>
+          </div>
+          <div className='footer1_list'>
+            <div className='list1_icon'>
+              <ArrowForwardIosIcon style={{ height: "15px", width: "15px" }} />
+            </div>
+            <div className='list1_text'>
+              <Link to="/productshow" className='icon_list1'>Product Show</Link>
+            </div>
+          </div>
+          <div className='footer1_list'>
+            <div className='list1_icon'>
+              <ArrowForwardIosIcon style={{ height: "15px", width: "15px" }} />
+            </div>
+            <div className='list1_text'>
+              <Link to="/" className='icon_list1'>Agents and Distributors</Link>
+            </div>
+          </div>
+          <div className='footer1_list'>
+            <div className='list1_icon'>
+              <ArrowForwardIosIcon style={{ height: "15px", width: "15px" }} />
+            </div>
+            <div className='list1_text'>
+              <Link to="/aboutus" className='icon_list1'>About Us</Link>
+            </div>
+          </div>
+          <div className='footer1_list'>
+            <div className='list1_icon'>
+              <ArrowForwardIosIcon style={{ height: "15px", width: "15px" }} />
+            </div>
+            <div className='list1_text'>
+              <Link to="/contactus" className='icon_list1'>Contact Us</Link>
+            </div>
+          </div>
+        </div>
+      
       </div>
      
     </div>

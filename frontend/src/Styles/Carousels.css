@@ -37,7 +37,9 @@
   background-color: darkgreen;
 }
 
-
+#first,#second{
+  width: 25%;
+}
 /* Responsive styles */
 @media (max-width: 768px) {
   .carousel-heading {
@@ -72,4 +74,11 @@
       left: 2%; /* Further reduce left spacing */
       max-width: 95%; /* Use almost full width */
   }
+  #second{
+    display: none;
+  }
+  #first{
+    width: 100%;
+  }
 }
+

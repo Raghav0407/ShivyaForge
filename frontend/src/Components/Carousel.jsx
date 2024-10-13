@@ -20,10 +20,10 @@ function Carousels() {
     <Carousel data-bs-theme="dark">
       <Carousel.Item interval={1500}>
         <div style={{display:"flex",flexDirection:"row"}}>
-        <img src={no1} alt="first1" style={{  height: "65vh",width:"25%",border:"2px solid orange"}} />
-        <img src={n2} alt="first3" style={{ height: "65vh",width:"25%",border:"2px solid orange"}} />
-        <img src={n1} alt="first1" style={{  height: "65vh",width:"25%" ,border:"2px solid orange"}} />
-        <img src={no0} alt="first3" style={{ height: "65vh",width:"25%",border:"2px solid orange"}} />
+        <img src={no1} alt="first1" style={{  height: "65vh",border:"2px solid orange"}} id="first"/>
+        <img src={n2} alt="first3" style={{ height: "65vh",border:"2px solid orange"}} id="second"/>
+        <img src={n1} alt="first1" style={{  height: "65vh" ,border:"2px solid orange"}} id="second"/>
+        <img src={no0} alt="first3" style={{ height: "65vh",border:"2px solid orange"}} id="second"/>
         </div>
         
         <Carousel.Caption className="custom-caption">
@@ -33,10 +33,10 @@ function Carousels() {
 
       <Carousel.Item interval={1500}>
       <div style={{display:"flex",flexDirection:"row"}}>
-        <img src={n3} alt="first1" style={{  height: "65vh",width:"25%",border:"2px solid orange"}} />
-        <img src={n4} alt="first3" style={{ height: "65vh",width:"25%",border:"2px solid orange"}} />
-        <img src={no2} alt="first1" style={{  height: "65vh",width:"25%" ,border:"2px solid orange"}} />
-        <img src={n5} alt="first3" style={{ height: "65vh",width:"25%",border:"2px solid orange"}} />
+        <img src={n3} alt="first1" style={{  height: "65vh",border:"2px solid orange"}} id="first" />
+        <img src={n4} alt="first3" style={{ height: "65vh",border:"2px solid orange"}} id="second"/>
+        <img src={no2} alt="first1" style={{  height: "65vh" ,border:"2px solid orange"}}id="second" />
+        <img src={n5} alt="first3" style={{ height: "65vh",border:"2px solid orange"}} id="second"/>
         </div>
         <Carousel.Caption className="custom-caption">
           <h1 className="carousel-heading">Manufacturer and Exporter of  <br/>Machined Forged Parts</h1>
@@ -45,10 +45,10 @@ function Carousels() {
 
       <Carousel.Item interval={1500}>
       <div style={{display:"flex",flexDirection:"row"}}>
-        <img src={n7} alt="first1" style={{  height: "65vh",width:"25%",border:"2px solid orange"}} />
-        <img src={n6} alt="first3" style={{ height: "65vh",width:"25%",border:"2px solid orange"}} />
-        <img src={n8} alt="first1" style={{  height: "65vh",width:"25%" ,border:"2px solid orange"}} />
-        <img src={no3} alt="first3" style={{ height: "65vh",width:"25%",border:"2px solid orange"}} />
+        <img src={n7} alt="first1" style={{  height: "65vh",border:"2px solid orange"}} id="first" />
+        <img src={n6} alt="first3" style={{ height: "65vh",border:"2px solid orange"}} id="second" />
+        <img src={n8} alt="first1" style={{  height: "65vh" ,border:"2px solid orange"}} id="second" />
+        <img src={no3} alt="first3" style={{ height: "65vh",border:"2px solid orange"}} id="second" />
         </div>
         <Carousel.Caption className="custom-caption">
           <h1 className="carousel-heading">Manufacturer and Exporter of  <br/>Forged Rings</h1>

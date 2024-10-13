@@ -37,11 +37,11 @@ const ProductsShow = () => {
                     </div>
                     <div className="col-md-12 shadow p-3">
                         <div className="row">
-                            <div className="col-6 d-flex justify-content-center align-items-center">
+                            <div className="col-12 col-sm-6 d-flex justify-content-center align-items-center">
                                 <img className="img-fluid" alt="Ring forging"
                                     src={img2} />
                             </div>
-                            <div className="col-6">
+                            <div className="col-12 col-sm-6">
                                 <div className="h4 mt-3 mb-3 custom-font-Subheading">
                                     Machine Forged Components and Parts
                                 </div>

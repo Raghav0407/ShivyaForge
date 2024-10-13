@@ -40,8 +40,6 @@ const Navbar = () => {
               <Divider orientation="horizontal" flexItem className='nav2_div_menu' />
               <div className='part1_text'>
                 <Link to='/components/forgedcomp' style={{ textDecoration: "none", color: "inherit" }}>Forged Components</Link></div>
-              <Divider orientation="horizontal" flexItem className='nav2_div_menu' />
-              <div className='part1_text'><Link to='/components/machforgedcomp' style={{ textDecoration: "none", color: "inherit" }}>Machine Forged Components</Link></div>
             </div>
           )}
         </div>

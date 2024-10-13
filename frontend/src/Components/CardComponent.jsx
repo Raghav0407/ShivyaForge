@@ -13,9 +13,14 @@ import image6 from "../Assets/img/OliAndGas6.jpeg";
 import image7 from "../Assets/img/Power7.jpeg";
 import image8 from "../Assets/img/IronSteel8.webp";
 import image9 from "../Assets/img/Mechanical9.jpeg";
+import first from '../Assets/img/14.jpg';
+import second from '../Assets/img/15.jpg';
+import third from '../Assets/img/16.jpg';
+import fourth from '../Assets/img/17.jpg';
+import fifth from '../Assets/img/18.jpg';
 
 function CardComponent() {
-  const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9];
+  const images = [first,second,third,fourth,fifth];
 
   return (
     <Container className="cardcomponent-container" fluid>

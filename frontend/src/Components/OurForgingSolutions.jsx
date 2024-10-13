@@ -6,6 +6,9 @@ import bearingrings from '../Assets/img/bearingring.jpg'
 import bearingraces from '../Assets/img/bearingrace.webp'
 import forgedcomponents from '../Assets/img/forgedcomponent.jpg'
 import machineforged from '../Assets/img/machineforged.webp'
+import first from '../Assets/img/19.jpg'
+import second from '../Assets/img/20.jpg'
+import third from '../Assets/img/21.jpg'
  const OurForgingSolutions = () => {
     return (
         <div className='ofs_container'>
@@ -18,16 +21,16 @@ import machineforged from '../Assets/img/machineforged.webp'
             </div>
             <div className='ofs_data'>
                 <div className='data_img1'>
-                    <img src={forgedrings} alt='/' className='img1_org' />
+                    <img src={first} alt='/' className='img1_org' />
                     <label className='img_label'>Forged Rings</label>
                 </div>
                 <div className='data_img1'>
-                    <img src={forgedcomponents} alt='/' className='img1_org' />
+                    <img src={second} alt='/' className='img1_org' />
                     <label className='img_label'>Forged Components</label>
                 </div>
                 <div className='data_img1'>
-                    <img src={machineforged} alt='/' className='img1_org' />
-                    <label className='img_label'>Machined Image Parts</label>
+                    <img src={third} alt='/' className='img1_org' />
+                    <label className='img_label'>Machined Forged Parts</label>
                 </div>
 
             </div>
